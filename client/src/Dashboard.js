@@ -6,7 +6,7 @@ import TrackSearchResults from './TrackSearchResults'
 import Player from './Player'
 import axios from 'axios'
 const spotifyApi = new SpotifyWebApi({
-    clientId: '87274b8b2e5e4ba1915fb48d07fc11bd',
+    clientId: '**INSERT YOUR CLIENT ID**',
 })
 export default function Dashboard({code}) {
     const accessToken = userAuth(code);
